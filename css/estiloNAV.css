@@ -1,0 +1,152 @@
+﻿* {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    
+    font-family: 'Open sans';
+}
+
+.wrap {
+    width: 100%;
+    position: fixed;
+    z-index:100;
+
+}
+
+ul.tabs {
+    width: 100% auto;
+    min-width:100%;
+    background: #363636;
+    list-style: none;
+    display:flex;
+    border-radius: 8px;
+    flex-direction:row;
+	justify-content:flex-start;
+    
+}
+
+    ul.tabs li {
+        width: 100%;
+
+    }
+
+        ul.tabs li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 15px;
+            text-align: center;
+            display: block;
+            padding: 20px 0px;
+
+        }
+
+.active {
+    background: #0984CC;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+ul.tabs li a .tab-text {
+    margin:auto;
+
+}
+
+.secciones {
+    width: 100% ;
+    background: rgba(255,255,255,0.6);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+    .secciones article {
+        padding: 30px;
+
+    }
+
+        .secciones article p {
+            text-align: justify;
+
+        }
+
+        
+
+@media screen and (max-width: 450px) {
+    ul.tabs li {
+        width: none;
+        flex-basis: 0;
+        flex-grow: 1;
+        font-size:10px;
+    }
+}
+
+@media screen and (max-width: 40px) {
+    ul.tabs li a {
+        padding: 13px;
+    }
+
+        ul.tabs li a .tab-text {
+            display:flow-root;
+            
+        }
+
+    .secciones article {
+        padding: 10px;
+
+    }
+}
+
+
+
+body {
+    background: url(../banner/fondo2.jpg);
+    background-repeat: inherit;
+}
+
+#principal {
+    background: rgba(255,255,255,0.3);
+    width:1020px;
+    max-width:100%;
+    border: ridge;
+    margin:auto;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+#columnader {
+    width: 1063px auto;
+    max-width: 100%;
+}
+
+
+#cabecera{
+    background:url(../banner/candado2.png);
+    background-repeat: round;
+    width: auto;
+    height:230px;
+    margin: auto;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+
+#pie{
+    background: rgba(255,255,255,0.6);
+    width: 1020px;
+    max-width:80%;
+    min-width:73%;
+    margin-top:10px;
+    margin-left:10% ;
+    margin-right:135px;
+    border: ridge;
+    padding:5px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    
+}

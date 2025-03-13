@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 4, 2020, 11:22:48 AM
+    Author     : juaandradepl
+
+
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{  
+background: url(../imagenes/fondo2.jpg);
+}
+
+#principal{
+   background: rgba(255,255,255,0.4);
+   height:500px auto;
+   width:500px auto;
+}
+
+
+#cabecera{
+    background:url(../imagenes/candado2.png);
+   background-repeat: round;
+   width: 1080px;
+  height:250px;
+ border: 1px solid #000000;
+  margin:auto;
+    -webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+}
+
+
+#Contenido {
+    background: rgba(255,255,255,0.6);
+    padding: 5px;
+    width:1080px;
+    height: 200px AUTO;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 4px;
+}
+
+#Contenido {
+    display: flex;
+    text-align: justify;
+}
+
+#contenido-hostgator, #contenido-hosting, #soft-control-ventas
+{
+    margin: 2px;
+}
+
+#contenido-hostgator, #contenido-hosting, #soft-control-ventas {
+    background: rgb(255, 255, 255);
+    width: 400px;
+    padding: 15px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 4px;
+}
+
+#contenido-hostgator, #Contenido, #contenido-hosting, #soft-control-ventas {
+    text-align: left;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+#contacto{
+    background: rgba(255,255,255,0.6);
+    width:1080px;
+    margin: 10px auto;
+    padding:30px;
+  }
+
+/*barra*/
+html {
+  font-size: 16px;
+}
+
+.social-bar {
+  position: fixed;
+  right: 0;
+  top: 35%;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 100;
+}
+
+.icon {
+  color: white;
+  text-decoration: none;
+  padding: .7rem;
+  display: flex;
+  transition: all .5s;
+}
+
+.icon-facebook {
+  background: #2E406E;
+}
+
+.icon-twitter {
+  background: #339DC5;
+}
+
+.icon-youtube {
+  background: #E83028;
+}
+
+.icon-instagram {
+  background: #3F60A5;
+}
+
+.icon:first-child {
+  border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+  border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+  padding-right: 3rem;
+  border-radius: 1rem 0 0 1rem;
+  box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+
+

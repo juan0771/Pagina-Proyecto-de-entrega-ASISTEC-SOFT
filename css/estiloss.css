@@ -1,0 +1,54 @@
+body {
+    background: url(../banner/fondo2.jpg);
+    background-repeat: inherit;
+}
+
+#principal {
+    background: rgba(255,255,255,0.6);
+    width:auto;
+    max-width:80%;
+    border: ridge;
+    margin:auto;
+    padding:5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+#columnaizq {
+    background: rgba(255,255,255,0.1);
+    width:200px;
+    max-width:80%;
+    margin-top:5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#columnader {
+    width:1231px;
+    max-width:80%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+#cabecera{
+    background:url(../banner/candado2.png);
+    background-repeat: round;
+    width: auto;
+    height:230px;
+    margin: auto;
+}
+
+.clear{
+    clear:both;
+}
+
+#pie{
+    background-color:#cccccc;
+     width:auto;
+    height:auto;
+    border:auto;
+    margin: 15px;
+    float: left;
+    
+}

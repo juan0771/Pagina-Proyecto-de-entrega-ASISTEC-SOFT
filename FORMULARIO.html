@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="iconos/7.ico" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="main.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    
+    <script src="scrip/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script>
+        window.Modernizr || document.write('<script src="js/vendor/modernizr-2.8.3.min.js"><\/script>')
+
+    </script>
+    
+	<title>Cotización / Asistec-SOFT</title>
+</head>
+<body>
+    
+    <div class="social-bar">
+        <a href="https://web.facebook.com/Asistec-SOFT-Asistencia-de-Software-108331917485921/" class="icon icon-facebook" target="_blank" title="Facebook"></a>
+        <a href="https://asistec-soft.000webhostapp.com/index.html" class="icon icon-youtube" target="_blank" title="Youtube"></a>
+        <a href="https://asistec-soft.000webhostapp.com/index.html" class="icon icon-instagram" target="_blank" title="Instagram"></a>
+    </div>
+    <div class="menu-container">
+        
+        <div class="menu">
+            <ul>
+                <li><a href="index.html" title="Inicio">Inicio</a></li>
+
+
+                <li><a href="index.html" title="Servicios">Servicios</a>
+                    <ul>
+                        <li><a href="HOSTINGWEB.html" title="Diseño WEB">Diseño WEB</a>
+                        </li>
+
+                        <li><a href="HOSTINGWEB.html" title="Hosting WEB">Hosting WEB</a>
+                        </li>
+
+                        <li><a href="HOSTINGWEB.html" title="Software Ventas">Software Ventas</a>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li><a href="index.html" title="Nosotros">Nosotros</a>
+                    <ul>
+                        <li><a href="JUAN ANDRADE.html" title="Juan Andrade">Juan Andrade</a>
+                        </li>
+
+                        <li><a href="MARIA DELGADO.html" title="Maria Delgado">Maria Delgado</a>
+                        </li>
+
+                        <li><a href="NICOLAS CHARRY.html" title="Nicolas Charry">Nicolas Charry</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li><a href="contactanos.html" title="Contacto">Contacto</a>
+                </li>
+                
+                <li><a href="FORMULARIO.html" title="Cotización">Cotización</a>
+                </li>
+
+                <div class="logo">
+                <a title="uniremington" href="https://www.uniremington.edu.co/"><img src="imagenes/LOGO.png" width="300" height="65" /></a>
+                </div>
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+
+    </script>
+    
+	<div class="contenedor-formulario">
+		<div class="wrap">
+			<form action="" class="formulario" name="formulario_registro" method="get">
+				<div>
+					<div class="input-group">
+						<input type="text" id="nombre" name="nombre">
+						<label class="label" for="nombre">Nombre:</label>
+					</div>
+					<div class="input-group">
+						<input type="email" id="correo" name="correo">
+						<label class="label" for="correo">Correo:</label>
+					</div>
+                    
+                    <div class="input-group">
+                    <label for="phone">Numero de Contacto:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                    </div>
+                    
+                <div class="input-group">    
+				<label for="servicio">Seleccione el Servicio:</label>
+			<select name='servicio' required >
+				<option value="">seleccione</option>
+				<option value="Apertura Vehicular">Diseño de Pagina Web</option>
+				<option value="Cambio Llantas">Servicio de HOSTING</option>
+				<option value="Paso Coriente">Software Control de Ventas</option>
+			</select>
+                </div>
+                    
+					<div class="input-group radio">
+						<input type="radio" name="sexo" id="hombre" value="Hombre">
+						<label for="hombre">Hombre</label>
+						<input type="radio" name="sexo" id="mujer" value="Mujer">
+						<label for="mujer">Mujer</label>
+					</div>
+					<div class="input-group checkbox">
+						<input type="checkbox" name="terminos" id="terminos" value="true">
+						<label for="terminos">Acepto los Terminos y Condiciones</label>
+					</div>
+						
+					<input type="submit" id="btn-submit" value="Enviar">
+				</div>
+			</form>
+		</div>
+	</div>
+<script src="js/js/formulario.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,449 @@
+﻿body{  
+background: url(../imagenes/fondo2.jpg);
+background-repeat: round;
+}
+
+.description {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+#cabecera{
+    background:url(../imagenes/candado2.png);
+   background-repeat: round;
+   width: 1080px;
+  height:250px;
+ border: 1px solid #000000;
+  margin:auto;
+}
+
+#Barra_Lateral, #Contenido
+{
+	text-align: left;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#Barra_Lateral{
+	background: rgba(255,255,255,0.6);
+	width: 20%;
+	height: 540px;
+}
+
+#Contenido{
+	background: rgba(255,255,255,0.6);
+	width: 806px;
+	height: 540px;
+    margin-left:135px;
+}
+
+#contenido-hostgator, #contenido-hosting, #soft-control-ventas{
+    background: rgb(255, 255, 255);
+    margin:5px;
+    width: 600px auto;
+    padding: 15px;
+}
+
+#contenido-hostgator, #contenido-hosting, #soft-control-ventas{
+    display: block;
+    text-align: left;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+#contacto{
+  background: rgba(255,255,255,0.6);
+  width:1080px;
+  margin: 10px auto;
+  padding:30px;
+}
+
+
+* {
+    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+	font-family: 'Open sans';
+}
+
+.wrap{
+
+	width:750px;
+    margin:30px;
+    margin-top:0px;
+    
+}
+
+ul.tabs{
+	width: 100%;
+	background: rgb(35, 120, 164);
+	list-style: none;
+	display:flex;
+}
+
+ul.tabs li{
+	width: 40%;
+}
+
+ul.tabs li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	text-align: center;
+	display: block;
+	padding: 10px 0px;
+}
+
+.active{
+	background: rgb(0, 0, 0);
+    margin: 2px;
+    -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+  border-radius: 4px;
+}
+
+ul.tabs li a .tab-text{
+	margin: 4px;
+    -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+  border-radius: 4px;
+}
+
+.secciones{
+	width: 100%;
+	background: rgba(255,255,255,0.0);
+    -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+  border-radius: 4px;
+}
+
+.secciones article{
+	padding: 3px;
+}
+
+.secciones article p{
+	text-align: justify;
+}
+
+
+@media screen and (max-width: 700px){
+	ul.tabs li{
+		width: none;
+		flex-basis: 0;
+		flex-grow: 1;
+	}
+}
+
+@media screen and (max-width: 450px){
+	ul.tabs li a{
+		padding: 15px 0px;
+	}
+
+	ul.tabs li a .tab-text{
+		display: none;
+	}
+
+	.secciones article{
+		padding: 20px;
+	}
+}
+
+
+
+
+
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    color: #333;
+}
+
+.description {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.menu-container {
+    
+    position:fixed;
+    z-index: 100;
+    width:100%;
+    margin: 0;
+    background: #e9e9e9;
+    
+}
+
+.menu-mobile {
+    display: none;
+    padding: 20px;
+}
+
+.menu-mobile:after {
+    content: "\f394";
+    font-family: "Ionicons";
+    font-size: 2.5rem;
+    padding: 0;
+    float: right;
+    position:fixed;
+    top: 50%;
+    -webkit-transform: translateY(-25%);
+    -ms-transform: translateY(-25%);
+    transform: translateY(-25%);
+}
+
+.menu-dropdown-icon:before {
+    content: "\f489";
+    font-family: "Ionicons";
+    display: none;
+    cursor: pointer;
+    float: right;
+    padding: 1.5em 2em;
+    background: rgba(255,255,255,0.8);
+    color: #333;
+}
+
+.menu > ul {
+    margin: 0px auto 0 auto;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    /* IF .menu position=relative -> ul = container width, ELSE ul = 100% width */
+    box-sizing: border-box;
+    
+}
+
+.menu > ul:before,
+.menu > ul:after {
+    content: "";
+    display: table;
+
+}
+
+.menu > ul:after {
+    clear: both;
+}
+
+.menu > ul > li {
+    float: left;
+    background: #e9e9e9;
+    padding: 0;
+    margin: 0;
+    height:60px;
+}
+
+.menu > ul > li a {
+    
+    text-decoration: none;
+    padding: 1.5em 3em;
+    display: block;
+    height: 0px;
+    margin-right: 0px;
+}
+
+.menu > ul > li:hover {
+    background: rgba(255,255,255,0.8);
+}
+
+.menu > ul > li > ul {
+    display: none;
+    width: 100%;
+    background: rgba(255,255,255,0.8);
+    padding: 20px;
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.menu > ul > li > ul:before,
+.menu > ul > li > ul:after {
+    content: "";
+    display: table;
+    background: rgba(255,255,255,0.4);
+}
+
+.menu > ul > li > ul:after {
+    clear: both;
+    
+}
+
+.menu > ul > li > ul > li {
+    
+    margin: 0;
+    padding-bottom: 0;
+    list-style: none;
+    width: 25%;
+    background: none;
+    float: left;
+}
+
+.menu > ul > li > ul > li a {
+    color: #777;
+    padding: .2em 0;
+    width: 95%;
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu > ul > li > ul > li > ul {
+    background: rgba(255,255,255,0.8);
+    display: block;
+    padding: 0;
+    margin: 10px 0 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.menu > ul > li > ul > li > ul:before,
+.menu > ul > li > ul > li > ul:after {
+    
+    content: "";
+    display: table;
+}
+
+.menu > ul > li > ul > li > ul:after {
+    
+    clear: both;
+}
+
+.menu > ul > li > ul > li > ul > li {
+    float: left;
+    width: 100%;
+    background: rgba(255,255,255,0.8);
+    padding: 10px 0;
+    margin: 0;
+    font-size: .8em;
+}
+
+.menu > ul > li > ul > li > ul > li a {
+    border: 0;
+    background: rgba(255,255,255,0.4);
+}
+
+.menu > ul > li > ul.normal-sub {
+    background: rgba(255,255,255,0.8);
+    width: 300px;
+    left: auto;
+    padding: 10px 20px;
+}
+
+.menu > ul > li > ul.normal-sub > li {
+    
+    width: 100%;
+}
+
+.menu > ul > li > ul.normal-sub > li a {
+    
+    border: 0;
+    padding: 1em 0;
+}
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Mobile style's
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media only screen and (max-width: 959px) {
+    .menu-container {
+        width: 100%;
+    }
+    .menu-mobile {
+        display: block;
+    }
+    .menu-dropdown-icon:before {
+        display: block;
+    }
+    .menu > ul {
+        display: none;
+    }
+    .menu > ul > li {
+        width: 100%;
+        float: none;
+        display: block;
+    }
+    .menu > ul > li a {
+        padding: 1.5em;
+        width: 100%;
+        display: block;
+    }
+    .menu > ul > li > ul {
+        position: relative;
+    }
+    .menu > ul > li > ul.normal-sub {
+        width: 100%;
+    }
+    .menu > ul > li > ul > li {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .menu > ul > li > ul > li:first-child {
+        margin: 0;
+    }
+    .menu > ul > li > ul > li > ul {
+        position: relative;
+    }
+    .menu > ul > li > ul > li > ul > li {
+        float: none;
+    }
+    .menu .show-on-mobile {
+        display: block;
+    }
+}
+
+/*barra*/
+.social {
+	position: fixed; /* Hacemos que la posici�n en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 100px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga alg�n otro elemento como sliders, galer�as, etc */
+}
+ 
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 25px 25px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transici�n a todas las propiedades */
+	}
+
+.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-googleplus {background: #d95232;}
+	.social ul li .icon-pinterest {background: #ae181f;}
+	.social ul li .icon-mail {background: #666666;}
+ 
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 25px 40px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
